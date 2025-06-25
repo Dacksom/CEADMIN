@@ -9,10 +9,10 @@
       "key": "borderRadius"
     },
     {
-      "key": "image"
+      "key": "defaultImage"
     },
     {
-      "key": "defaultImage"
+      "key": "image"
     }
   ],
   "dynamicPropertyPathList": [
@@ -28,7 +28,7 @@
   "enableDownload": false,
   "enableRotation": false,
   "flexVerticalAlignment": "start",
-  "image": "{{currentItem.imagenes}}",
+  "image": "{{currentItem}}",
   "imageShape": "RECTANGLE",
   "isLoading": false,
   "isVisible": true,
