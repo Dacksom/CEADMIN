@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68406792f321654d9f7e9451_5537ed36-1723-4500-97ed-806437e0f5fb",
+  "id": "Dashboard_Admin_actualizarUsuarios",
+  "unpublishedCollection": {
+    "name": "actualizarUsuarios",
+    "pageId": "Dashboard_Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

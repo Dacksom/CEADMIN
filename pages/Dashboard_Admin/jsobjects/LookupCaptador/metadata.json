@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68406792f321654d9f7e9451_de18f308-9b6c-4d64-8061-9ff0fdea95f0",
+  "id": "Dashboard_Admin_LookupCaptador",
+  "unpublishedCollection": {
+    "name": "LookupCaptador",
+    "pageId": "Dashboard_Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

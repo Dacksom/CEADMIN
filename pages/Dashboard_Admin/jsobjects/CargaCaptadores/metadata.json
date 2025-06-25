@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68406792f321654d9f7e9451_ff7e65d6-226c-43b1-b156-7b56e748c8ac",
+  "id": "Dashboard_Admin_CargaCaptadores",
+  "unpublishedCollection": {
+    "name": "CargaCaptadores",
+    "pageId": "Dashboard_Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

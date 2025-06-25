@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 70,
+  "boxShadow": "none",
+  "buttonColor": "#86efac",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{ [\"pendiente_induccion\", \"induccion_reprogramada\", \"no_asistio\"].includes(appsmith.store.tiendaSeleccionada.estado_actual) }}\n",
+  "key": "le5fjznudh",
+  "leftColumn": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 73,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 69,
+  "needsErrorInfo": false,
+  "onClick": "{{TiendaAcciones.cambiarEstadoTienda(\n  \"pendiente_activacion\",\n  \"Tienda marcada Pendiente por Activación\",\n  \"info\"\n).then(() => {\n  // <-- Aquí llamas al meta-flujo\n  AutoActivarRapikom.ejecutar(\n    appsmith.store.tiendaSeleccionada._ref.id,\n    appsmith.store.tiendaSeleccionada.rif\n  );\n});\n}}",
+  "originalBottomRow": 65,
+  "originalTopRow": 61,
+  "parentColumnSpace": 19.1984375,
+  "parentId": "x5a0z0t80e",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 17,
+  "text": "Inducción Cumplida",
+  "topRow": 66,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "r8ra6iy1iu",
+  "widgetName": "BtnInduccionCumplida"
+}

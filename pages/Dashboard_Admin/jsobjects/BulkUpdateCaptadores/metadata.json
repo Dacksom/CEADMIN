@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68406792f321654d9f7e9451_fc551c7a-72eb-4bd1-85ca-4307d58435e3",
+  "id": "Dashboard_Admin_BulkUpdateCaptadores",
+  "unpublishedCollection": {
+    "name": "BulkUpdateCaptadores",
+    "pageId": "Dashboard_Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

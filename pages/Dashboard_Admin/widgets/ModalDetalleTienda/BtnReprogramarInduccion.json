@@ -1,0 +1,63 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 66,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{ [\"pendiente_induccion\", \"induccion_reprogramada\", \"no_asistio\"].includes(appsmith.store.tiendaSeleccionada.estado_actual) }}\n",
+  "key": "le5fjznudh",
+  "leftColumn": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 73,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 69,
+  "needsErrorInfo": false,
+  "onClick": "{{Update_Tienda.run({\n  id: appsmith.store.tiendaSeleccionada._ref.id,\n  nuevo_estado: \"induccion_reprogramada\",\n  comentario: InputComentario.text.trim()\n}).then(() => {\n  closeModal(\"ModalDetalleTienda\");\n  showAlert(\"Inducción reprogramada\", \"info\");\n});\n}}",
+  "originalBottomRow": 61,
+  "originalTopRow": 57,
+  "parentColumnSpace": 19.1984375,
+  "parentId": "x5a0z0t80e",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 17,
+  "text": "Reprogramar Inducción",
+  "topRow": 62,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "12rhzs5eir",
+  "widgetName": "BtnReprogramarInduccion"
+}

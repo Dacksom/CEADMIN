@@ -1,0 +1,60 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 58,
+  "boxShadow": "none",
+  "buttonColor": "#86efac",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": "{{ [\"pendiente_activacion\"].includes(appsmith.store.tiendaSeleccionada.estado_actual) }}\n",
+  "key": "le5fjznudh",
+  "leftColumn": 1,
+  "minWidth": 120,
+  "mobileBottomRow": 73,
+  "mobileLeftColumn": 29,
+  "mobileRightColumn": 45,
+  "mobileTopRow": 69,
+  "needsErrorInfo": false,
+  "onClick": "{{ AutoActivarRapikom.ejecutar(\n     appsmith.store.tiendaSeleccionada._ref.id,\n     appsmith.store.tiendaSeleccionada.rif\n) }}\n",
+  "originalBottomRow": 53,
+  "originalTopRow": 49,
+  "parentColumnSpace": 19.1984375,
+  "parentId": "x5a0z0t80e",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 17,
+  "text": "Activar Tienda",
+  "topRow": 54,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "nulo5bg6ia",
+  "widgetName": "BtnActivarTienda"
+}

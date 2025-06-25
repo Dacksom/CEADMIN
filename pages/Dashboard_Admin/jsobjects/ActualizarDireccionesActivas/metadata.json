@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68406792f321654d9f7e9451_69e611e1-3f01-458f-aa80-d55516abe82f",
+  "id": "Dashboard_Admin_ActualizarDireccionesActivas",
+  "unpublishedCollection": {
+    "name": "ActualizarDireccionesActivas",
+    "pageId": "Dashboard_Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

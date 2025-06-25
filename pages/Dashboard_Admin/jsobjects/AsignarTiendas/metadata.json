@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68406792f321654d9f7e9451_68d7f524-1cfd-41e0-aef9-60513925aedc",
+  "id": "Dashboard_Admin_AsignarTiendas",
+  "unpublishedCollection": {
+    "name": "AsignarTiendas",
+    "pageId": "Dashboard_Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

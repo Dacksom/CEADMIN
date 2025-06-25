@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68406792f321654d9f7e9451_fbd48652-f00c-4545-9048-c4f7683f1269",
+  "id": "Dashboard_Admin_AutoActualizarAliados",
+  "unpublishedCollection": {
+    "name": "AutoActualizarAliados",
+    "pageId": "Dashboard_Admin",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}
