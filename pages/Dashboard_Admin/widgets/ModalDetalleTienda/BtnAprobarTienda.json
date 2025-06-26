@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 78,
+  "bottomRow": 73,
   "boxShadow": "none",
   "buttonColor": "#86efac",
   "buttonVariant": "PRIMARY",
@@ -52,7 +52,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 17,
   "text": "Aprobar Tienda",
-  "topRow": 74,
+  "topRow": 69,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "who11fosnt",

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 62,
+  "bottomRow": 57,
   "boxShadow": "none",
   "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
@@ -52,7 +52,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 17,
   "text": "No Asistió Inducción",
-  "topRow": 58,
+  "topRow": 53,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "igmzyor33t",

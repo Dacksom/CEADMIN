@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 70,
+  "bottomRow": 65,
   "boxShadow": "none",
   "buttonColor": "#86efac",
   "buttonVariant": "PRIMARY",
@@ -52,7 +52,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 17,
   "text": "Inducción Cumplida",
-  "topRow": 66,
+  "topRow": 61,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "r8ra6iy1iu",
