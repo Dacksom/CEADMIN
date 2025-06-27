@@ -37,7 +37,7 @@
   "mobileRightColumn": 48,
   "mobileTopRow": 6,
   "needsErrorInfo": false,
-  "onClick": "{{\nstoreValue(\"tiendaSeleccionada\", currentItem);\nGet_Tienda_Detalle.run(() => {\n  InputComentario.setValue(Get_Tienda_Detalle.data.comentario_admin || \"\");\n});\nshowModal(\"ModalDetalleTienda\");\n}}\n",
+  "onClick": "{{ \nstoreValue(\"tiendaSeleccionada\", currentItem); \nGet_Tienda_Detalle.run(() => {\n    // Cuando termina la query:\n    InputComentario.setValue(Get_Tienda_Detalle.data.comentario_admin || \"\");\n    showModal(\"ModalDetalleTienda\");\n}); \n}}\n",
   "parentColumnSpace": 21.1171875,
   "parentId": "ois7nvttn2",
   "parentRowSpace": 10,

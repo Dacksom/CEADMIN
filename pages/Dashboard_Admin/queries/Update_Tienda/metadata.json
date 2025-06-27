@@ -8,7 +8,7 @@
       "encodeParamsToggle": true,
       "formData": {
         "body": {
-          "data": "{\n  \"estado_actual\": \"{{ this.params.nuevo_estado }}\"\n}"
+          "data": "{\n  \"estado_actual\": \"{{ this.params.nuevo_estado }}\",\n  \"comentario_admin\": \"{{ this.params.comentario }}\"\n}\n"
         },
         "command": {
           "data": "UPDATE_DOCUMENT"
